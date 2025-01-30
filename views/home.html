@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit-order" method="post">
+
+        <!-- Contact Info -->
+        <fieldset>
+            <legend>Contact Info</legend>
+
+            <label>First Name:
+                <input type="text" name="fname">
+            </label>
+
+            <label>Last Name:
+                <input type="text" name="lname">
+            </label>
+
+            <label>Email Address:
+                <input type="text" name="email">
+            </label>
+
+            <label>Date
+                <input type="date" name="date">
+            </label>
+            <label>
+                <input type="time" name="time">
+            </label>
+
+        </fieldset>
+        <!-- Place order button -->
+        <button type="submit">Sumbit</button>
+    </form>
+</body>
+</html>
